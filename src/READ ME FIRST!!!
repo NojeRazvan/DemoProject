@@ -1,0 +1,36 @@
+In this file I will try to explain:
+- how the maven projects work
+- maven dependencies and plugins
+- what is testNG
+- how to create a report using a testNG plugin
+- how to add the project to github and use github
+- how to install jenkins and use jenkins
+
+HOW THE MAVEN PROJECTS WORK
+
+  Maven is a build automation tool that help the user build the project more easily and set it up more clearly
+and easily. Mostly is used to build Java based projects but it can also use projects written in C#, Ruby, Python etc
+To configure the maven project, we use the Project Object Model which is stored in the pom.xml file
+In the pom.xml file serves as a brain of the project. Contains all the information of the maven project, dependecies
+plugins and many others. Maven reads the pom.xml file and executes the goal.
+
+MAVEN DEPENDENCIES AND PLUGINS
+
+  Maven dependencies are basically libraries that the project needs to use in order to build. The maven will download
+those libraries from a repository into your local project automatically, but this can also be performed manually.
+When you build the maven project, the dependencies set up are solved and loaded from the local machine
+The maven dependencies are written in the <dependencies> tag in the pom.xml file
+For example: we are using the selenium dependency and the testng dependency which allows us to use selenium and
+testng in our maven project.
+
+ Plugins are where much of the real action is performed, plugins are used to: create jar files, create war files,
+compile code, unit test code, create project documentation, and on and on. Almost any action that you can think
+of performing on a project is implemented as a Maven plugin.
+For example: we are using the maven compiler plugin which is used to compile the project. The surefire plugin is
+used to run the project tests. It also allows us to configure which XML suites to execute when we build our project
+
+WHAT IS TESTNG
+
+  TestNG is a Java testing framework used in selenium to make the automation test easier to understand and write.
+The goal of TestNG is to cover a wide range of test categories such as unit testing, functional, end-to-end,
+and many more with an easy-to-use functionalities. NG stands for Next Generation :)
