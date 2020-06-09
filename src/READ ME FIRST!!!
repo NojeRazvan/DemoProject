@@ -34,3 +34,4 @@ WHAT IS TESTNG
   TestNG is a Java testing framework used in selenium to make the automation test easier to understand and write.
 The goal of TestNG is to cover a wide range of test categories such as unit testing, functional, end-to-end,
 and many more with an easy-to-use functionalities. NG stands for Next Generation :)
+
